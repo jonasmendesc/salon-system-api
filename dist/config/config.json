@@ -1,0 +1,32 @@
+{
+    "development": {
+      "username": "root",
+      "password": "lab_prog102",
+      "database": "systemsalon",
+      "host": "localhost",
+      "dialect": "mysql",
+      "port": "3306"
+    },
+    "local": {
+      "username": "postgres",
+      "password": "lab_prog102",
+      "database": "restaurantDb",
+      "host": "localhost",
+      "dialect": "postgres"
+    },
+    "test": {
+      "username": "postgres",
+      "password": "lab_prog102",
+      "database": "salonSystemDbTest",
+      "host": "localhost",
+      "dialect": "postgres"
+    },
+    "production": {
+      "username": "bhlehgeoylpzjb",
+      "password": "e95537bcdaaf1e33e57751abd73556a7388e62cabb6c14b159aae030da430214",
+      "database": "d6a43kl44ag20h",
+      "host": "ec2-23-23-101-25.compute-1.amazonaws.com",
+      "dialect": "postgres",
+      "port":"5432"
+    }
+  }
