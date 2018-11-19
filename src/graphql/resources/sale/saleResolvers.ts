@@ -83,7 +83,7 @@ export const saleResolvers = {
                           saleInput.dueDate = new Date(dateCurrent.setMonth(dateCurrent.getMonth() + input.dateTimeMonthPlan)).toDateString();
                           saleInput.dueDateExtension = new Date(dateCurrent.setMonth(dateCurrent.getMonth() + input.dateTimeMonthPlan)).toLocaleDateString("pt-BR", {
                             weekday: "long", year: "numeric", month: "short",
-                            day: "numeric"
+                            day: "numeric", minute:"numeric", second: "numeric", hour: "numeric"
                           });
 
                           return db.Sale.create(saleInput, { transaction: t })
